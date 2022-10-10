@@ -1,7 +1,13 @@
+import MetaHead from '../components/MetaHead';
+
 export default function Home() {
 	return (
-		<main>
-			<h1>business-link-next</h1>
-		</main>
+		<>
+			<MetaHead />
+
+			<main>
+				<h1>business-link-next</h1>
+			</main>
+		</>
 	);
 }
