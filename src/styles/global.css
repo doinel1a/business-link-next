@@ -14,17 +14,20 @@ h2 {
 	@apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
 }
 
-body,
 h1,
-h2 {
-	@apply transition-colors duration-200;
-}
-
-h1,
-h2 {
+h2,
+footer span {
 	@apply text-color-light dark:text-color-dark;
 }
 
-li a {
+body,
+h1,
+h2,
+footer span {
+	@apply transition-colors duration-200;
+}
+
+li a,
+footer span {
 	@apply md:text-lg lg:text-xl;
 }
