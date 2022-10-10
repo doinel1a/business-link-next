@@ -24,3 +24,7 @@ h1,
 h2 {
 	@apply text-color-light dark:text-color-dark;
 }
+
+li a {
+	@apply md:text-lg lg:text-xl;
+}

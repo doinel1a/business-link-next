@@ -1,5 +1,6 @@
 import MetaHead from '../components/MetaHead';
 import Header from '../components/Header';
+import LinksList from '../components/LinksList';
 
 export default function Home() {
 	return (
@@ -8,6 +9,7 @@ export default function Home() {
 
 			<main className='w-full max-w-2xl min-h-screen flex flex-col justify-center items-center mx-auto p-8'>
 				<Header />
+				<LinksList />
 			</main>
 		</>
 	);
