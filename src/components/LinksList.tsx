@@ -7,6 +7,7 @@ export default function LinksList() {
 		<ul className='w-full h-full flex flex-col gap-y-5 mt-6'>
 			{links.map((link) => (
 				<li
+					key={link.text}
 					title={link.text}
 					tabIndex={0}
 					className='relative rounded-full bg-accent-primary transition-all duration-200 hover:bg-accent-primary-state hover:-translate-y-1
